@@ -1,0 +1,162 @@
+/*h1{
+  margin-top:0;
+}
+body{
+  margin-top: 0;
+  margin-left:0;
+  margin-right: 0
+}   insted of doing all this use only margin*/
+h1{
+  font-size: 3.2rem;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Playfair Display', serif;
+  margin-top:50px;
+  color: #66BFBF;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #66BFBF;
+  font-weight: bold;
+
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+body{
+  color: #40514E;
+  margin: 0;
+  text-align:center;
+  font-family: 'Merriweather', serif;
+  background-color: #E4F9F5;
+}
+
+.top-container{
+
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  margin: 25px 0;
+
+}
+.bottom-container{
+ background-color:#66BFBF;
+ padding: 12px
+}
+.web{
+  text-decoration: underline;
+}
+.line{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  width:15%;
+  color:#66BFBF;
+  margin: 50px auto;
+
+}
+.line-2{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  width:15%;
+  color:#66BFBF;
+
+}
+.firstcloud{
+  position: absolute;
+  top: 70px;
+  right:300px;
+}
+.secondcloud{
+  position: absolute;
+  left:300px;
+  bottom:265px ;
+
+}
+.profilepic{
+  height:12%;
+  width: 12%;
+}
+.webdev{
+  height:18%;
+  width: 18%;
+  float:left;
+  margin-right: 25px;
+}
+.appdev{
+  height:18%;
+  width: 18%;
+  float:right;
+  margin-left: 25px;
+}
+.cyber-pic{
+  height:18%;
+  width: 18%;
+  float:left;
+  margin-right: 20px;
+}
+.skill-row{
+  width: 50%;
+  text-align: left;
+  margin: 100px auto;
+  line-height: 2;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.intro{
+  width: 30%;
+  margin:0 auto;
+}
+.contact-message{
+  width: 30%;
+  margin:40px auto 60px
+}
+.contact-me{
+  margin: 60px auto 60px;
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin: 10px ;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copywrite{
+  color: #EAF6F6;
+  padding:5px auto;
+}
+
+
+/*the width of the inline elements cannot be changed but in
+block text it can be changed block text takes the full width of
+the page but it still dosent let any other elements sit on the same
+line inline elements takes how much it needs and allows others to sit */
